@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="dist/css/src/accessibility-tool.css">
+    <title>Accessibility Tool!</title>
+  </head>
+  <body>
+    <div>
+      <h1>This is a h1 title</h1>
+      <h2>This is a h2 title</h2>
+      <h3>This is a h3 title</h3>
+      <h4>This is a h4 title</h4>
+      <h5>This is a h5 title</h5>
+      <h6>This is a h6 title</h6>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec feugiat sodales mollis. Maecenas ligula sem, feugiat ut augue vitae, sagittis viverra ipsum. Sed sit amet leo ut purus euismod posuere nec vel tellus. Sed cursus varius ante rhoncus semper. Nunc id vestibulum urna. Fusce nunc nunc, aliquam eu rhoncus sit amet, tincidunt id nisl. Mauris vel diam luctus, gravida nisl nec, hendrerit quam. Etiam nec neque felis. Donec volutpat dignissim orci.
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet, <a href="#">consectetur adipiscing elit. Donec</a> feugiat sodales mollis. Maecenas ligula sem, feugiat ut augue vitae, sagittis viverra ipsum. Sed sit amet leo ut purus euismod posuere nec vel tellus. Sed cursus varius ante rhoncus semper. Nunc id vestibulum urna. Fusce nunc nunc, aliquam eu rhoncus sit amet, tincidunt id nisl. Mauris vel diam luctus, gravida nisl nec, hendrerit quam. Etiam nec neque felis. Donec volutpat dignissim orci.
+      </p>
+      <h2>This is a h2 title</h2>
+      <p>
+        Lorem ipsum dolor sit amet, <a href="#">consectetur adipiscing elit. Donec</a> feugiat sodales mollis. Maecenas ligula sem, feugiat ut augue vitae, sagittis viverra ipsum. Sed sit amet leo ut purus euismod posuere nec vel tellus. Sed cursus varius ante rhoncus semper. Nunc id vestibulum urna. Fusce nunc nunc, aliquam eu rhoncus sit amet, tincidunt id nisl. Mauris vel diam luctus, gravida nisl nec, hendrerit quam. Etiam nec neque felis. Donec volutpat dignissim orci.
+      </p>
+      <h3>This is a h3 title</h3>
+      <p>
+        Lorem ipsum dolor sit amet, <a href="#">consectetur adipiscing elit. Donec</a> feugiat sodales mollis. Maecenas ligula sem, feugiat ut augue vitae, sagittis viverra ipsum. Sed sit amet leo ut purus euismod posuere nec vel tellus. Sed cursus varius ante rhoncus semper. Nunc id vestibulum urna. Fusce nunc nunc, aliquam eu rhoncus sit amet, tincidunt id nisl. Mauris vel diam luctus, gravida nisl nec, hendrerit quam. Etiam nec neque felis. Donec volutpat dignissim orci.
+      </p>
+    </div>
+
+    <div id="accessibilityTool" class="accessibilityTool">
+      <button class="accessibilityTool-btn" type="button" tabindex="1" data-accessibilityToggler="toggle">
+        <span class="accessibilityTool-icon"></span>
+      </button>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="dist/js/src/accessiblity-tool.js"></script>
+
+    <script>
+
+    $(function() {
+  		$("#accessibilityTool").accessibilityTool();
+  	});
+
+    </script>
+
+  </body>
+</html>
