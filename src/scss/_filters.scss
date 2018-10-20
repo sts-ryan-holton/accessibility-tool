@@ -1,0 +1,11 @@
+body {
+  .accessibility-highlight-links {
+    text-decoration: underline !important;
+  }
+  &.accessibility-inverse-colours {
+    filter: invert(100%) !important;
+  }
+  &.accessibility-grayscale {
+    filter: grayscale(100%) !important;
+  }
+}

@@ -3,7 +3,8 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="dist/css/src/accessibility-tool.css">
+    <link rel="stylesheet" href="src/dist/css/accessibility-tool.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
     <title>Accessibility Tool!</title>
   </head>
   <body>
@@ -30,19 +31,58 @@
       </p>
     </div>
 
-    <div id="accessibilityTool" class="accessibilityTool">
-      <button class="accessibilityTool-btn" type="button" tabindex="1" data-accessibilityToggler="toggle">
-        <span class="accessibilityTool-icon"></span>
+    <div id="accessibility-tool" class="accessibility-tool">
+      <button class="btn-toggler toggler" type="button" role="button">
+        <i class="icon icon-toggler"></i>
       </button>
+      <div class="controls">
+        <ul>
+          <li>
+            <button type="button" role="button" class="btn-control" data-font-size="increase">
+              <i class="icon icon-increase"></i>
+              Increase Font
+            </button>
+          </li>
+          <li>
+            <button type="button" role="button" class="btn-control" data-font-size="decrease">
+              <i class="icon icon-decrease"></i>
+              Decrease Font
+            </button>
+          </li>
+          <li>
+            <button type="button" role="button" class="btn-control" data-grayscale-toggler="toggle">
+              <i class="icon icon-dark"></i>
+              Black &amp; White
+            </button>
+          </li>
+          <li>
+            <button type="button" role="button" class="btn-control" data-inverse-toggler="toggle">
+              <i class="icon icon-inverse"></i>
+              Inverse Colours
+            </button>
+          </li>
+          <li>
+            <button type="button" role="button" class="btn-control" data-links-toggler="toggle">
+              <i class="icon icon-links"></i>
+              Highlight Links
+            </button>
+          </li>
+          <li>
+            <button type="button" role="button" class="btn-control" data-reset-toggler="reset">
+              <i class="icon icon-reset"></i>
+              Reset Filters
+            </button>
+          </li>
+        </ul>
+      </div>
     </div>
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
-    <script src="dist/js/src/accessiblity-tool.js"></script>
+    <script src="src/dist/js/accessiblity-tool.js"></script>
 
     <script>
 
     $(function() {
-  		$("#accessibilityTool").accessibilityTool();
+  		$("#accessibility-tool").accessibilityTool();
   	});
 
     </script>
