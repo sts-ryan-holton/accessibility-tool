@@ -4,14 +4,17 @@
   "description": "Accessibility tool to aid the user browsing websites",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "build": "gulp build"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/sts-ryan-holton/accessibility-tool.git"
   },
   "keywords": [
-    "accessibility"
+    "accessibility",
+    "accessibility tool",
+    "accessibility checker",
+    "website accessibility tool"
   ],
   "author": "Ryan Holton",
   "license": "MIT",

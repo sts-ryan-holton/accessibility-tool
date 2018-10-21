@@ -11,7 +11,9 @@ This is a lightweight, modern jQuery plugin that aids with the accessibility of 
 
 #### Requirements
 
-This accessibility plugin requires you to be using **REM** values for font sizes throughout your website. You must also be using an up-to-date, modern browser. We currently **do not support Internet Explorer** due to partial support with [LET](https://caniuse.com/#feat=let) and no support for [CSS filters.](https://caniuse.com/#feat=css-filters&search=filter)
+- This accessibility plugin requires you to be using **REM** values for font sizes throughout your website. You must also be using an up-to-date, modern browser. We currently **do not support Internet Explorer** due to partial support with [LET](https://caniuse.com/#feat=let) and no support for [CSS filters.](https://caniuse.com/#feat=css-filters&search=filter)
+
+- This tool also utilises WebStorage (localstorage), please check your [browser support](https://caniuse.com/#feat=namevalue-storage) for this.
 
 #### Browser Support
 

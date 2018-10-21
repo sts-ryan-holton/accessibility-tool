@@ -71,3 +71,5 @@ gulp.task('build-css', function() {
     outputStyle: 'compressed'
   }).pipe(gulp.dest('dist/css/')))
 });
+
+gulp.task('build', ['build-js', 'build-css']);
