@@ -1,3 +1,6 @@
 .gulpfile.js
 /src
 index.html
+CODE_OF_CONDUCT.md
+PULL_REQUEST_TEMPLATE.md
+CONTRIBUTING.md

@@ -15,7 +15,25 @@ This accessibility plugin requires you to be using **REM** values for font sizes
 
 #### Browser Support
 
+We aim to support most **modern browsers***. However, we currently have little/no support for the following browsers:
 
+- Internet Explorer: `<=` **10** _(not supported)_
+- Internet Explorer: `==` **11** _(little/no support)_
+- Edge: `==` **17** _(little/no support)_
+
+For Front-End CSS/styling, we aim to support the following as listed in our **gulpfile.js**
+
+```
+browsers: [
+  "last 2 versions",
+  ">= 0.2%",
+  "Chrome >= 55",
+  "Firefox >= 54",
+  "iOS >= 10",
+  "Safari >= 10",
+  "Android >= 4.4"
+]
+```
 
 ## Installation
 
